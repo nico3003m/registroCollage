@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Nativas"
         tools:targetApi="31">
         <activity
+            android:name=".update_information"
+            android:exported="false" />
+        <activity
             android:name=".view_notes"
             android:exported="false" />
         <activity
